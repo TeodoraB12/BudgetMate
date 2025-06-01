@@ -1,4 +1,4 @@
-package com.example.projct_budgetmate.transactions
+package com.example.projct_budgetmate.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

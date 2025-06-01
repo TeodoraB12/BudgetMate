@@ -1,4 +1,4 @@
-package com.example.projct_budgetmate.transactions
+package com.example.projct_budgetmate.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

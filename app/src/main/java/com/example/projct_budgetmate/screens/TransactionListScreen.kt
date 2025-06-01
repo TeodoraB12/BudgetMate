@@ -1,4 +1,4 @@
-package com.example.projct_budgetmate.transactions
+package com.example.projct_budgetmate.screens
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -28,6 +28,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.projct_budgetmate.R
 import com.example.projct_budgetmate.data.db.BudgetTransaction
+import com.example.projct_budgetmate.viewmodel.TransactionViewModel
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
