@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Projct-budgetMate</string>
+    <string name="app_name">BudgetMate</string>
+    <string name="welcome_message">Welcome to BudgetMate!</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="date">Date</string>
+    <string name="delete">Delete</string>
 </resources>
