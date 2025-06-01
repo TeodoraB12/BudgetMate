@@ -13,7 +13,7 @@ import androidx.room.PrimaryKey
         onDelete = ForeignKey.CASCADE
     )]
 )
-data class Transaction(
+data class BudgetTransaction(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
     val amount: Double,
     val date: Long,
