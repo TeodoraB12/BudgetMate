@@ -11,7 +11,7 @@ class BudgetRepository(
 
     suspend fun getAllTransactions() = transactionDao.getAllTransactions()
     suspend fun getTransactionsBetweenDates(start: Long, end: Long) = transactionDao.getTransactionsBetweenDates(start, end)
-    suspend fun insertTransaction(transaction: Transaction) = transactionDao.insertTransaction(transaction)
-    suspend fun updateTransaction(transaction: Transaction) = transactionDao.updateTransaction(transaction)
-    suspend fun deleteTransaction(transaction: Transaction) = transactionDao.deleteTransaction(transaction)
+    suspend fun insertTransaction(transaction: com.example.projct_budgetmate.data.db.BudgetTransaction) = transactionDao.insertTransaction(transaction)
+    suspend fun updateTransaction(transaction: BudgetTransaction) = transactionDao.updateTransaction(transaction)
+    suspend fun deleteTransaction(transaction: BudgetTransaction) = transactionDao.deleteTransaction(transaction)
 }
