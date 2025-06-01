@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ТвојБуџет</string>
+    <string name="transactions_title">Трансакции</string>
+    <string name="cancel">Откажи</string>
+    <string name="welcome_message">Добредојдовте во ТвојБуџет</string>
+    <string name="add_transaction">Додај Трансакција</string>
+    <string name="category">Категорија</string>
+    <string name="amount">Износ</string>
+    <string name="income">Приход</string>
+    <string name="expense">Трошок</string>
+    <string name="date">Датум</string>
+    <string name="delete">Избриши</string>
+    <string name="save">Зачувај</string>
+    <string name="description">Опис</string>
+</resources>
